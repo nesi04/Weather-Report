@@ -1,0 +1,66 @@
+body{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+.weatherForm{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+}
+.weatherForm input{
+    width: 150px;
+    height: 25px;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    background-color: rgb(223, 223, 46);
+    font-weight: bolder;
+    color: black;
+
+}
+.weatherForm input::placeholder{
+    color: white;
+
+}
+.weatherForm button{
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 13px;
+    background-color: rgb(68, 255, 47);
+    color: white;
+    font-weight: bolder;
+    transition: 0.25s;
+}
+.weatherForm button:hover{
+    box-shadow: 0px 0px 10px rgb(51, 122, 43);
+}
+.container{
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border-radius: 12px;
+    background: linear-gradient(rgba(236, 216, 112, 0.548),rgb(138, 243, 255));
+    align-items: center;
+}
+.cityDisplay{
+    font-size: 2rem;
+    color: rgb(93, 78, 78);
+}
+.tempDisplay{
+    font-size: 1rem;
+    color: brown;
+}
+.descDisplay{
+    font-size: 3rem;
+    color: purple;
+}
+.emoji{
+    font-size: 4rem;
+}
